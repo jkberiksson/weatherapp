@@ -3,7 +3,7 @@ import { AnimatePresence } from 'framer-motion';
 import LoadingMessage from './components/LoadingMessage';
 import Home from './pages/Home';
 
-const API_KEY = '4904fc472b1b4320884142407230201';
+const API_KEY = 'f331cc3eee3d4774bce181626231601';
 const API_URL = 'http://api.weatherapi.com/v1/current.json';
 
 function App() {

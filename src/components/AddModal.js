@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { BsSearch } from 'react-icons/bs';
 import { useState } from 'react';
 
-const API_KEY = '4904fc472b1b4320884142407230201';
+const API_KEY = 'f331cc3eee3d4774bce181626231601';
 const API_URL = 'http://api.weatherapi.com/v1/current.json';
 
 const AddModal = ({ cities, setCities, setShowModal }) => {
