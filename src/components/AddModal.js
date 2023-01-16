@@ -3,7 +3,7 @@ import { BsSearch } from 'react-icons/bs';
 import { useState } from 'react';
 
 const API_KEY = 'f331cc3eee3d4774bce181626231601';
-const API_URL = 'http://api.weatherapi.com/v1/current.json';
+const API_URL = 'https://api.weatherapi.com/v1/current.json';
 
 const AddModal = ({ cities, setCities, setShowModal }) => {
   const [search, setSearch] = useState('');
